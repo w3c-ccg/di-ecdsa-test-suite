@@ -11,7 +11,7 @@ import {
   isValidUtf8,
   setupReportableTestSuite,
   setupRow
-} from './helpers.js';
+} from '../helpers.js';
 import chai from 'chai';
 import {endpoints} from 'vc-test-suite-implementations';
 
