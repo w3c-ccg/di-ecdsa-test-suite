@@ -31,6 +31,9 @@ for(const vcVersion of vectors.vcTypes) {
       tags
     })
   });
+  const optionalTests = {
+    proofChain: true
+  };
   // options for the DI Verifier Suite
   checkDataIntegrityProofVerifyErrors({
     implemented: match,
@@ -43,5 +46,6 @@ for(const vcVersion of vectors.vcTypes) {
       testVector: document,
       keyType: 'P-256'
     },
+    optionalTests
   });
 }
